@@ -1,0 +1,20 @@
+{
+    "name": "javascript-numeros-e-objetos",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "App Javascript",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/diegotpereira/javascript-numeros-e-objetos.git"
+    },
+    "author": "Diego Pereira",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/diegotpereira/javascript-numeros-e-objetos/issues"
+    },
+    "homepage": "https://github.com/diegotpereira/javascript-numeros-e-objetos#readme"
+}
