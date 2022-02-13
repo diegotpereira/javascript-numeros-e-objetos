@@ -1,3 +1,18 @@
+// O Adapter assume o novo objeto que vamos usar e o 
+// envolve ou o apenas faz sua mediação, dependendo 
+// de como o objeto é usado, para combiná-lo com a 
+// interface estabelecida pelo antigo objeto. No caso 
+// de um objeto que sempre é instanciado com o operador new, 
+// o Adapter irá envolvê-lo por conter uma instância do 
+// objeto em si e passando as chamadas de função para ele. 
+// Se o objeto é “estático”, no sentido de que há apenas 
+// uma instância dele, então ele não será envolvido.
+
+
+
+
+
+
 // interface velha
 function Entrega() {
     this.request = function(cepInicial, cepFinal, peso) {
