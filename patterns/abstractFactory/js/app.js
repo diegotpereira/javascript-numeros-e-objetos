@@ -1,3 +1,7 @@
+// O Abstract Factory é uma variação do padrão Factory Method que 
+// fortifica o princípio de “Programe para interfaces e não para 
+// implementações”
+
 function Colaborador(nome) {
     this.nome = nome 
 
