@@ -1,3 +1,7 @@
+// O composite pattern diz que um grupo de objetos 
+// pode ser tratado da mesma maneira que um objeto 
+// individual desse grupo.
+
 var Node = function(nome) {
     this.filhos = []
     this.nome = nome 
@@ -26,7 +30,7 @@ Node.prototype = {
 }
 
 function atravessar(indent, node) {
-    console.log(Array(indent++).join("--"+ Node.nome));
+    console.log(Array(indent++).join("--"+ node.nome));
 
     for(var index = 0, len = node.filhos.length; index < len; index++) {
         atravessar(indent, node.getFilho(index))
